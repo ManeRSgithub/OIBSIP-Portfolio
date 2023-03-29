@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Poppins:wght@300&family=Source+Code+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Poppins:wght@300&family=Source+Code+Pro:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 80vw;
+    max-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width: 100%;
+    padding: 35px 10px;
+
+}
+main.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+
+}
+.col header.title{
+    font-family:Anton, Fira+Sans, Poppins;
+    color: #11a372;
+    padding: 0px 0px 20px 30px;
+}
+.col .contents{
+    padding: 10px 30px;
+    border-left: 2px solid #bababa;
+}
+.col .contents .box{
+    position: relative;
+    padding: 7px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 10px;
+}
+.col .contents .box:hover{
+    box-shadow: 0px 3px 20px 0px #ccc;
+    border: 1px solid transparent;
+}
+.col .contents .box::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    right: calc(100% + 26px);
+    top: 0;
+    background-color: #11a372;
+    border: 2px solid white;
+}
+.box h4{
+    position: relative;
+    color: #11a372;
+}
+.box h3{
+    font-size: 19px;
+    /* padding: 2px 0px 2px; */
+    font-family: Anton, Fira+Sans, Poppins;
+    color: #444;
+}
+.box p{
+    line-height: 1.2;
+    color: #666;
+    
+}
+.base{
+    color: aliceblue;
+    margin-top: 120px;
+    font-family:Arial, Helvetica, sans-serif;
+}

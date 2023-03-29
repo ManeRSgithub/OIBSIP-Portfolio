@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Poppins:wght@300&family=Source+Code+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Poppins:wght@300&family=Source+Code+Pro:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #272829;
+    width: 20vw;
+    font-family: Poppins;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 30px;
+    width: 209px;
+}
+
+.main {
+    background-color: #d0bdf4;
+    width: 80vw;
+    background-image: url(3.webp);
+    /* background-repeat: no-repeat; */
+    
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+.sidebar nav ul li a{
+text-decoration: none;
+color: rgb(71, 110, 219);
+}
+
+.infocontainer {
+    /* background-color: #ff1d58; */
+    height: 45vh;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    width: 400px;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: Poppins;
+
+}
+
+.hello {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.moreAbout {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    margin-top: 20px;
+    padding: 6.5px;
+    border-radius: 20px;
+    color: #d0bdf4;
+    background-color: rgb(27, 22, 22);
+    font-size: small;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: whitesmoke;
+    color: dodgerblue;
+
+}
+.dp {
+    width: 10vw;
+    margin-left: 30px;
+}
+.base{
+    color: aliceblue;
+    margin-top: 120px;
+    font-family:Arial, Helvetica, sans-serif;
+}
